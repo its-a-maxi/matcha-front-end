@@ -41,6 +41,7 @@
   right: 0;
   left: 0;
   margin: auto;
+	border-radius: 100px;
 }
 
 .iconsContainer
@@ -62,6 +63,7 @@
 .icon
 {
   height: 100%;
+  transition: .6s
 }
 
 .lightGreen
