@@ -1,0 +1,191 @@
+
+.bodyMatchaDesktop
+{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.searchBarContainerMatchaDesktop
+{
+    position: absolute;
+    height: 6%;
+    width: 60%;
+    min-width: 50vh;
+    top: 4%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.searchBarMatcha
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 100vh;
+    background-color: #a9a454;
+}
+
+.searchBarInputMatcha
+{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+
+    left: 5%;
+    margin: auto;
+
+    background-color: transparent;
+    border: none;
+    font-size: 2vh;
+    color: #efe4d4;
+}
+
+.searchBarInputMatcha::placeholder
+{
+    color: rgba(239, 228, 212, .75);
+}
+
+.searchBarInputMatcha:focus
+{
+    outline: none;
+}
+
+.searchIconMatchaDesktop
+{
+    position: absolute;
+    height: 50%;
+
+    top: 0;
+    bottom: 0;
+    right: 5%;
+    margin: auto;
+}
+
+.searchBarBtnMatcha
+{
+    opacity: 75%;
+}
+
+.searchBarBtnMatcha:hover
+{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.profileContainerMatchaDesktop
+{
+    position: absolute;
+    height: 75%;
+    width: 48vh;
+
+    top: 16%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.profilePictureMatcha
+{
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 4vh;
+    box-shadow: 0px 0px 10px 1px rgba(21, 22, 24, .25);
+}
+
+.profileName
+{
+    position: absolute;
+    top: 73%;
+    left: 10%;
+
+    font-size: 3.5vh;
+    color: #efe4d4;
+    text-shadow: 0px 0px 10px 1px rgba(21, 22, 24, .25);
+}
+
+.profileStatus
+{
+    position: absolute;
+    top: 84%;
+    left: 10%;
+
+    font-size: 2vh;
+    color: #efe4d4;
+    text-shadow: 0px 0px 10px 1px rgba(21, 22, 24, .25);
+}
+
+.btnsMatchaDesktop
+{
+    position: absolute;
+    height: 55%;
+    width: 80%;
+    top: 26%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.passBtnMatchaDesktop
+{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0%;
+    margin: auto;
+    border: 0.6vh solid #556b2f;
+    border-radius: 4vh;
+    box-sizing: border-box;
+    transition: .6s
+}
+
+.passBtnMatchaDesktop:hover
+{
+    background-color: #556b2f;
+    cursor: pointer;
+}
+
+.passIconContainerMatcha
+{
+    position: absolute;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    left: 22%;
+    margin: auto;
+}
+
+.likeBtnMatchaDesktop
+{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    margin: auto;
+    border: 0.6vh solid #a9a454;
+    border-radius: 4vh;
+    box-sizing: border-box;
+    transition: .6s
+}
+
+.likeBtnMatchaDesktop:hover
+{
+    background-color: #a9a454;
+    cursor: pointer;
+}
+
+.likeIconContainerMatcha
+{
+    position: absolute;
+    height: 20%;
+    top: 0;
+    bottom: 0;
+    right: 22%;
+    margin: auto;
+}

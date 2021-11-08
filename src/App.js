@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import userIcon from './assets/icons/user.svg';
+import searchIcon from './assets/icons/search.svg';
+import teaIcon from './assets/icons/tea.svg';
 import './App.css';
+
+import MatchaDesktop from './components/Matcha/MatchaDesktop';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        {
+         window.innerWidth > 800 ?
+          <div className="matcha">
+            <MatchaDesktop/>
+          </div> :
+          <p>MatchaPhone</p>
+        }
+        <div className="bottomBar">
+          <div className="separator"></div>
+          <div className="iconsContainer">
+            <img src={userIcon} alt="" class="icon lightGreen"/>
+            <img src={searchIcon} alt="" class="icon darkGreen"/>
+            <img src={teaIcon} alt="" class="icon lightGreen"/>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
